@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React From Scratch</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!--1 Namaste Duniya! using just HTML -->
+    <!-- <h1>Namaste Duniya!</h1> -->
+
+    <!--2 Namaste Duniya! using JavaScript -->
+    <!-- <div id="root"></div>
+    <script>
+        const h1 = document.createElement("h1");
+        h1.innerHTML = "Namaste Duniya using JavaScript!";
+        const render = document.getElementById("root");
+        render.appendChild(h1);
+    </script> -->
+
+    <!--3 Namaste Duniya! using React -->
+    <!-- <div id="root">Nothing Rendered 🤔?</div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const h1 = React.createElement(
+        "h1",
+        { id: "h1Props" },
+        "Namaste Duniya using React!"
+      );
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(h1);
+    </script> -->
+
+    <!-- 4 Create Nested React Element -->
+    <div id="root">Nothing Rendered 🤔?</div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./App.js"></script>
+  </body>
+</html>
