@@ -1,0 +1,4 @@
+#npm
+#parcel
+#jest
+#transitiveDependencies

@@ -1,0 +1,25 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "I am lazy, can't write it again 🥱",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i1s-akash/react-from-scratch.git"
+  },
+  "keywords": [
+    "react-from-scatch"
+  ],
+  "author": "Akash Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i1s-akash/react-from-scratch/issues"
+  },
+  "homepage": "https://github.com/i1s-akash/react-from-scratch#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
