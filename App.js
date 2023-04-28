@@ -1,12 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Header } from "./Components/Header"; //Named export
+import Body from "./Components/Body";
+// import "./index.css";
 
-const parent = React.createElement("div", { id: "parentId" }, [
-  React.createElement("div", { id: "firstChild" }, [
-    React.createElement("h1", { id: "firstH1", key: "1" }, "First H1"),
-    React.createElement("h1", { id: "firstH1", key: "2" }, "First H1"),
-  ]),
-]);
+const AppLayout = () => {
+
+  return (
+    <div>
+      <h1 className="react">Hey, Let's bonfires with React Celebration! </h1>
+      <Header />
+      <Body/>
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<AppLayout />);
