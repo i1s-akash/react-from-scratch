@@ -1,3 +1,70 @@
-#parentId {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.react {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: chocolate;
+}
+
+.header_list {
+  list-style: none;
+  display: flex;
+}
+
+.header_list > li {
+  padding: 10px;
+  margin: 2px;
+  background-color: antiquewhite;
+}
+
+.header_list > li:hover {
+  color: antiquewhite;
+  background-color: #000;
+}
+
+.search_area_body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_body {
+  width: 80%;
+  height: 40px;
+  outline: none;
+}
+
+.search_btn_body {
+  border-radius: 5px;
+  border: 2px solid #000;
+  width: 150px;
+  height: 40px;
+  background-color: antiquewhite;
+  color: #000;
+}
+
+.resturant_area_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.resturant_body {
+  width: 250px;
+  height: 200px;
+  background-color: gainsboro;
+  padding: 5px;
+  margin: 5px;
 }
