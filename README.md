@@ -7,6 +7,7 @@
 #npm build
 #react devtool
 #transfor-remove-console as plugin
+#folder structure changed
 
 <!-- 
 React Devtool

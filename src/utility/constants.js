@@ -1038,3 +1038,7 @@ export const resList = [
     subtype: "basic",
   },
 ];
+
+export const imgUrl = "https://i.ibb.co/m5wQLPJ/react-from-scratch.png";
+
+
